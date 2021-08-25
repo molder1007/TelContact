@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02715FD626C5042000409744 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02715FD526C5042000409744 /* AppDelegate.swift */; };
+		02715FD826C5042000409744 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02715FD726C5042000409744 /* SceneDelegate.swift */; };
+		02715FDD26C5042000409744 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02715FDB26C5042000409744 /* Main.storyboard */; };
+		02715FDF26C5042700409744 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02715FDE26C5042700409744 /* Assets.xcassets */; };
+		02715FE226C5042700409744 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02715FE026C5042700409744 /* LaunchScreen.storyboard */; };
+		02715FEB26C50A5600409744 /* TelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02715FEA26C50A5600409744 /* TelController.swift */; };
+		02715FF126C5721B00409744 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02715FF026C5721B00409744 /* ListViewController.swift */; };
+		02715FF526C5724F00409744 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02715FF326C5724F00409744 /* ListTableViewCell.swift */; };
+		02715FF626C5724F00409744 /* ListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02715FF426C5724F00409744 /* ListTableViewCell.xib */; };
+		02715FF926C5733D00409744 /* TelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02715FF826C5733D00409744 /* TelModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02715FD226C5042000409744 /* TelContact.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TelContact.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02715FD526C5042000409744 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		02715FD726C5042000409744 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		02715FDC26C5042000409744 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		02715FDE26C5042700409744 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		02715FE126C5042700409744 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		02715FE326C5042700409744 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02715FEA26C50A5600409744 /* TelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelController.swift; sourceTree = "<group>"; };
+		02715FF026C5721B00409744 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		02715FF326C5724F00409744 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		02715FF426C5724F00409744 /* ListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListTableViewCell.xib; sourceTree = "<group>"; };
+		02715FF826C5733D00409744 /* TelModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02715FCF26C5042000409744 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		024E035526D5102E00A5117B /* VCs */ = {
+			isa = PBXGroup;
+			children = (
+				02715FEA26C50A5600409744 /* TelController.swift */,
+				02715FF026C5721B00409744 /* ListViewController.swift */,
+			);
+			path = VCs;
+			sourceTree = "<group>";
+		};
+		024E035626D5104200A5117B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				02715FF826C5733D00409744 /* TelModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		024E035726D5105100A5117B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				02715FF326C5724F00409744 /* ListTableViewCell.swift */,
+				02715FF426C5724F00409744 /* ListTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		02715FC926C5042000409744 = {
+			isa = PBXGroup;
+			children = (
+				02715FD426C5042000409744 /* TelContact */,
+				02715FD326C5042000409744 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02715FD326C5042000409744 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02715FD226C5042000409744 /* TelContact.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02715FD426C5042000409744 /* TelContact */ = {
+			isa = PBXGroup;
+			children = (
+				02715FD526C5042000409744 /* AppDelegate.swift */,
+				02715FD726C5042000409744 /* SceneDelegate.swift */,
+				024E035626D5104200A5117B /* Model */,
+				024E035526D5102E00A5117B /* VCs */,
+				024E035726D5105100A5117B /* Views */,
+				02715FDB26C5042000409744 /* Main.storyboard */,
+				02715FDE26C5042700409744 /* Assets.xcassets */,
+				02715FE026C5042700409744 /* LaunchScreen.storyboard */,
+				02715FE326C5042700409744 /* Info.plist */,
+			);
+			path = TelContact;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02715FD126C5042000409744 /* TelContact */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02715FE626C5042700409744 /* Build configuration list for PBXNativeTarget "TelContact" */;
+			buildPhases = (
+				02715FCE26C5042000409744 /* Sources */,
+				02715FCF26C5042000409744 /* Frameworks */,
+				02715FD026C5042000409744 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TelContact;
+			productName = TelContact;
+			productReference = 02715FD226C5042000409744 /* TelContact.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02715FCA26C5042000409744 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					02715FD126C5042000409744 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 02715FCD26C5042000409744 /* Build configuration list for PBXProject "TelContact" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02715FC926C5042000409744;
+			productRefGroup = 02715FD326C5042000409744 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02715FD126C5042000409744 /* TelContact */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02715FD026C5042000409744 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02715FE226C5042700409744 /* LaunchScreen.storyboard in Resources */,
+				02715FF626C5724F00409744 /* ListTableViewCell.xib in Resources */,
+				02715FDF26C5042700409744 /* Assets.xcassets in Resources */,
+				02715FDD26C5042000409744 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02715FCE26C5042000409744 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02715FF526C5724F00409744 /* ListTableViewCell.swift in Sources */,
+				02715FF126C5721B00409744 /* ListViewController.swift in Sources */,
+				02715FD626C5042000409744 /* AppDelegate.swift in Sources */,
+				02715FD826C5042000409744 /* SceneDelegate.swift in Sources */,
+				02715FEB26C50A5600409744 /* TelController.swift in Sources */,
+				02715FF926C5733D00409744 /* TelModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		02715FDB26C5042000409744 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02715FDC26C5042000409744 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		02715FE026C5042700409744 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02715FE126C5042700409744 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02715FE426C5042700409744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		02715FE526C5042700409744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02715FE726C5042700409744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VA6Q46G75B;
+				INFOPLIST_FILE = TelContact/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.molder.TelContact;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		02715FE826C5042700409744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VA6Q46G75B;
+				INFOPLIST_FILE = TelContact/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.molder.TelContact;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02715FCD26C5042000409744 /* Build configuration list for PBXProject "TelContact" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02715FE426C5042700409744 /* Debug */,
+				02715FE526C5042700409744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02715FE626C5042700409744 /* Build configuration list for PBXNativeTarget "TelContact" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02715FE726C5042700409744 /* Debug */,
+				02715FE826C5042700409744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02715FCA26C5042000409744 /* Project object */;
+}
